@@ -1,0 +1,12 @@
+streamlit
+opencv-python
+numpy
+pandas
+tensorflow
+keras
+pillow
+scikit-learn
+matplotlib
+imutils
+smtplib
+email-validator
