@@ -1,12 +1,8 @@
 streamlit
-opencv-python
+opencv-python-headless
 numpy
 pandas
-tensorflow
-keras
 pillow
 scikit-learn
 matplotlib
 imutils
-smtplib
-email-validator
