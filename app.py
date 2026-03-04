@@ -15,7 +15,7 @@ st.markdown("Real-time Gun Detection with Email Alerts")
 # ---------------- LOAD MODELS ----------------
 @st.cache_resource
 def load_models():
-    weapon_model = YOLO("runs/detect/train4/weights/best.pt")
+    weapon_model = YOLO("best.pt")
     person_model = YOLO("yolov8n.pt")
     return weapon_model, person_model
 
